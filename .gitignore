@@ -1,5 +1,5 @@
 # output
-*.pdf
+/*.pdf
 
 # intermediate files
 *.aux

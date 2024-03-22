@@ -1,0 +1,68 @@
+% Gemini theme
+% https://github.com/anishathalye/gemini
+
+% ====================
+% Definitions
+% ====================
+
+% Colors from https://identity.stanford.edu/visual-identity/stanford-logos/
+\definecolor{cardinalred}{RGB}{140, 21, 21} % PMS 201C
+\definecolor{coolgray}{RGB}{93, 86, 90} % Cool Grey 11C
+\definecolor{processblack}{RGB}{0, 0, 0} % Process Black
+\definecolor{paloaltogreen}{RGB}{23, 94, 84} % PMS 3298C
+
+% Extra colors
+\definecolor{darkbeige}{RGB}{182, 177, 169}
+
+% ====================
+% Theme
+% ====================
+
+% Basic colors
+\setbeamercolor{palette primary}{bg=black,fg=white}
+\setbeamercolor{palette secondary}{bg=black,fg=white}
+\setbeamercolor{palette tertiary}{bg=black,fg=white}
+\setbeamercolor{palette quaternary}{bg=black,fg=white}
+\setbeamercolor{structure}{fg=cardinalred}
+
+% Headline
+\setbeamercolor{headline}{fg=white,bg=cardinalred}
+\setbeamercolor{headline rule}{bg=coolgray}
+% \setbeamercolor{headline}{fg=white,bg=paloaltogreen}
+% \setbeamercolor{headline}{fg=cardinalred,bg=white}
+% \setbeamercolor{headline}{fg=cardinalred,bg=processblack}
+% \setbeamercolor{headline}{fg=white,bg=coolgray}
+
+% Block
+\setbeamercolor{block title}{fg=cardinalred,bg=white}
+\setbeamercolor{block separator}{bg=processblack}
+\setbeamercolor{block body}{fg=processblack,bg=white}
+
+% Alert Block
+\ifgrayhighlight
+    \setbeamercolor{block alerted title}{fg=cardinalred,bg=darkbeige}
+    \setbeamercolor{block alerted separator}{bg=cardinalred}
+    \setbeamercolor{block alerted body}{fg=cardinalred,bg=darkbeige}
+\else
+    \setbeamercolor{block alerted title}{fg=white,bg=cardinalred}
+    \setbeamercolor{block alerted separator}{bg=white}
+    \setbeamercolor{block alerted body}{fg=white,bg=cardinalred}
+\fi
+
+% Example Block
+\setbeamercolor{block example title}{fg=cardinalred,bg=white}
+\setbeamercolor{block example separator}{bg=processblack}
+\setbeamercolor{block example body}{fg=cardinalred,bg=white}
+
+% Heading
+\setbeamercolor{heading}{fg=cardinalred}
+
+% Itemize
+\setbeamercolor{item}{fg=cardinalred}
+
+% Bibliography
+\setbeamercolor{bibliography item}{fg=cardinalred}
+\setbeamercolor{bibliography entry author}{fg=cardinalred}
+\setbeamercolor{bibliography entry title}{fg=cardinalred}
+\setbeamercolor{bibliography entry location}{fg=cardinalred}
+\setbeamercolor{bibliography entry note}{fg=cardinalred}

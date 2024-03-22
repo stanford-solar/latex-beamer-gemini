@@ -4,6 +4,14 @@
 \documentclass[final]{beamer}
 
 % ====================
+% Color options
+% ====================
+
+\newif\ifgrayhighlight % define new flag
+% \grayhighlighttrue     % Use gray background for highlighted block
+\grayhighlightfalse    % Use cardinal red background for highlighted block
+
+% ====================
 % Packages
 % ====================
 
@@ -11,7 +19,7 @@
 \usepackage{lmodern}
 \usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
 \usetheme{gemini}
-\usecolortheme{gemini}
+\usecolortheme{stanford}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tikz}
@@ -57,8 +65,8 @@
 % ====================
 
 % use this to include logos on the left and/or right side of the header:
-% \logoright{\includegraphics[height=7cm]{logo1.pdf}}
-% \logoleft{\includegraphics[height=7cm]{logo2.pdf}}
+\logoleft{\includegraphics[height=3cm]{logos/stanford+solar_group+HEPL-white.pdf}}
+\logoright{\includegraphics[height=7cm]{logos/SUTree-2color.pdf}}
 
 % ====================
 % Body
